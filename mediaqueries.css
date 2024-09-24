@@ -1,0 +1,9 @@
+@media screen and (max-width: 1200px) {
+    #navigation-bar {
+        display: none;
+    }
+
+    #dropdown-nav{
+        display: flex;
+    }
+}

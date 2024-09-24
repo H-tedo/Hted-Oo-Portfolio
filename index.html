@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hted Oo - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav id = "navigation-bar">
+        <div class = "name"> Hted Oo
+
+        </div>
+        <div>
+            <ul class = "nav-links">
+                <li><a href= "#about">About</a></li>
+                <li><a href= "#experience">Experience</a></li>
+                <li><a href= "#projects">Projects</a></li>
+                <li><a href= "#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id = "dropdown-nav">
+        <div class = "name"> Hted Oo
+        </div>
+        <div class = "dropdown-menu">
+         <div class = "dropdown-icon" onclick = "toggleMenu()" >
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+         <div>
+            <ul class = "dropdown-links">
+                <li><a href= "#about" onclick = "toggleMenu()">About</a></li>
+                <li><a href= "#experience" onclick = "toggleMenu()">Experience</a></li>
+                <li><a href= "#projects" onclick = "toggleMenu()">Projects</a></li>
+                <li><a href= "#contact" onclick = "toggleMenu()">Contact</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <section id = "profile">
+        <div class = "photo-container">
+            <img class = "photo-background" src ="./assets/Hted-Oo-Portfolio.png" alt="Hted Oo profile picture"/>
+        </div>
+        <div class="description">
+            <h1 class="name"> Hted Oo </h1>
+            <p class="description-text"> Junior Computer Science Student @ University of Maryland - College Park</p >
+            <div class = "buttons">
+                <button class = "resume button" onclick = "window.open('./assets/Hted-Oo-Updated-Resume-(2024).pdf')"> Download Resume</button>
+                <button class = "email button" onclick="location.href='./#contact'"> Contact Info</button>
+            </div>
+            <div class = "socials">
+                <img
+                src="./assets/linkedin.png"
+                alt="My LinkedIn profile"
+                class="linkedin-icon"
+                onclick="location.href='https://www.linkedin.com/in/hted-oo-4b05b8255/'"
+              />
+              <img
+                src="./assets/github.png"
+                alt="My Github profile"
+                class="github-icon"
+                onclick="location.href='https://github.com/H-tedo'"
+              />
+            </div>
+        </div>
+    </section>
+</body>
+</html>
