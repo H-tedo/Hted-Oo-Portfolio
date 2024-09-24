@@ -150,16 +150,17 @@ section {
 
 #profile{
     display: flex;
-    justify-content: center;
-    gap: 5rem;
+    flex-direction: column;
+ 
     height: 80vh;
 }
 
 .photo-container {
     display: flex;
+    flex-direction: column;
     height: 400px;
     width: 400px;
-    margin: auto 0;
+    margin: auto ;
 }
   
   
@@ -223,4 +224,11 @@ section {
     cursor: pointer;
     background: rgb(53, 53, 53);
     color: white;
+}
+
+.languages {
+    padding-left: 10vh;
+    padding-right: 10vh;
+    padding-top: 10vh;
+    border: black 2rem;
 }
