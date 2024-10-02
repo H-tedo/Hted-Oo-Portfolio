@@ -147,6 +147,10 @@ section {
     margin: auto ;
 }
 
+.profile-pic {
+  border-radius: 4rem;
+}
+
 .About_picture_container, .section__pic-container{
     display: flex;
     height: 500px;
